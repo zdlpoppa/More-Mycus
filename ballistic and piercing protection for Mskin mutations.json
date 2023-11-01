@@ -1,5 +1,6 @@
 [
   {
+  "//": "this json should be played with as it conflicts with the older existing versions of theses mutations. this is more of a note so i remember to add it later",
     "type": "mutation",
     "id": "M_SKIN",
     "name": { "str": "Mycus Flesh" },
@@ -25,7 +26,7 @@
       { "part": "hand_r", "ignored": 4 },
       { "part": "torso", "ignored": 40 }
     ],
-    "armor": [ { "part_types": [ "ALL" ], "cut": 1, "bash": 2, "stab": 1 } ]
+    "armor": [ { "part_types": [ "ALL" ], "cut": 1, "bash": 2, "bullet": 1, "stab": 1 } ]
 	  },
   {
 	      "type": "mutation",
