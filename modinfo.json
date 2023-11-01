@@ -1,11 +1,11 @@
 [
   {
     "type": "MOD_INFO",
-    "id": "More_Fungal_Zombies",
-    "name": "More Fungal Zombies!",
+    "id": "Mycus_additions",
+    "name": "Extra fungal stuff",
     "authors": [ "Bamboozled", "detahramet", "7829" ],
-    "description": "More Fungalicious zombies for your fungal needs! WIP.",
-	"category": "creatures",
+    "description": "More Fungal mobs mutations items and more, WIP",
+    "category": "content",
     "dependencies": [ "dda" ]
   }
 ]
