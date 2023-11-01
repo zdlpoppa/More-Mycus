@@ -1,0 +1,18 @@
+[
+      {
+   "type": "mutation",
+   "id": ["MFINGER_BAD"],
+    "name": { "str": "Abnormal Growth" },
+    "changes_to": [ "MFINGER" ],
+    "category": [ "MYCUS" ],
+    "prereqs": [ "M_SKIN3" ],
+    "threshreq": [ "THRESH_MYCUS" ],
+    "active": true,
+    "valid": false,
+    "points": -8,
+    "visibility": 10,
+    "ugliness": 10,
+    "integrated_armor": [ "integrated_tendrilsBAD" ],
+    "description": "We have began physical changes to our hand's external structure, but the quality is extremely crude,"
+		}
+    ]
