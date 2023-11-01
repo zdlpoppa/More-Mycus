@@ -1,0 +1,20 @@
+[
+  {
+    "type": "mutation",
+    "id": "HIVE_MIND",
+    "name": { "str": "Gestalt consciousness" },
+    "points": 4,
+    "flags": [ "PSYCHOPATH", "PORTAL_PROOF", "MULTIMIND" ],
+    "description": "local physiology has being fully integrated with the central processing organ, our interconnected minds prevent weaker psychological attacks, but any sense of emotion or facial expression has been lost in the process, making us 'repulsive' to be around. They must change",
+    "cancels": [ "TRUTHTELLER", "LIAR", "SLOWLEARNER", "FASTLEARNER", "CEPH_MIND" ],
+    "purifiable": false,
+    "types": [ "HUMAN_EMPATHY" ],
+    "social_modifiers": { "lie": -70, "persuade": -70 },
+    "enchantments": [ { "condition": "ALWAYS", "values": [ { "value": "LEARNING_FOCUS", "add": -8 } ] } ],
+    "skill_rust_multiplier": 0.6,
+    "category": [ "MYCUS" ],
+    "prereqs": [ "LOUD_MIND" ],
+    "threshreq": [ "THRESH_MYCUS" ]
+			}
+]
+
