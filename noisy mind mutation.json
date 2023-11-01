@@ -1,0 +1,14 @@
+[
+  {
+    "type": "mutation",
+    "id": "LOUD_MIND",
+    "name": { "str": "Proto Hive mind " },
+    "points": -7,
+    "description": "We have begin the first steps to create a wider information network with the rest of us. the lack of regulatory nodes has let to a decrease amount of order and efficieny within the guide's processing organ -4 intelligence.",
+	"changes_to": [ "HIVE_MIND" ],
+    "category": [ "MYCUS" ],
+    "prereqs": [ "M_IMMUNE" ],
+    "threshreq": [ "THRESH_MYCUS" ],
+    "passive_mods": { "int_mod": -4 }
+  }
+] 
