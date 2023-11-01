@@ -1,0 +1,61 @@
+[
+  {
+    "type": "GENERIC",
+    "category": "weapons",
+    "id": "tendril_spear",
+    "name": { "str": "petrified fungi" },
+    "description": "it seems to be moving when you go near it.",
+    "weight": "800 g",
+    "price_postapoc": 0,
+    "color": "light_gray",
+    "symbol": "/",
+    "material": [ "stone" ],
+    "techniques": [ "WBLOCK_3", "DEF_DISARM", "BRUTAL" ],
+    "volume": "1750 ml",
+    "longest_side": "200 cm",
+    "to_hit": { "grip": "solid", "length": "long", "surface": "point", "balance": "neutral" },
+    "flags": [ "SPEAR", "REACH_ATTACK", "NPC_THROWN" ],
+    "weapon_category": [ "POLEARMS", "SPEARS", "FRAGILE_MELEE" ],
+    "price": 0,
+    "melee_damage": { "bash": 30, "stab": 40 }
+  },
+  {
+    "type": "mutation",
+    "id": "FungalSpear",
+    "name": { "str": "Ossified Spear" },
+    "points": 3,
+    "description": "We have developed a thin ossified layer of fungi on our epidermis giving armour in addition to this we may forcefully seperate a big chunk of this layer to create a powerful but fragile weapon.",
+    "purifiable": false,
+    "prereqs": [ "M_SKIN2", "M_SKIN3" ],
+    "prereqs2": [ "M_DEPENDENT" ],
+    "threshreq": [ "THRESH_MYCUS" ],
+    "category": [ "MYCUS" ],
+	"cancels": [ "FungalArrow" ],
+    "active": true,
+    "cost": 0,
+    "kcal": false,
+    "thirst": false,
+	"armor": [ { "part_types": [ "ALL" ], "cut": 2, "bash": 2, "bullet": 2, "stab": 2 } ],
+    "spawn_item": { "type": "tendril_spear", "message": "we feel the tendrils beneath our exterior straining to assist in our conquest." },
+    "activated_eocs": [ "mut_fungalspear" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "mut_fungalspear",
+    "effect": [
+      { "math": [ "u_randomlimb", "=", "rand(2)" ] },
+      {
+        "if": { "math": [ "u_randomlimb", "==", "0" ] },
+        "then": [ { "math": [ "u_hp('arm_l')", "-=", "rng( 5, 15)" ] } ]
+      },
+      {
+        "if": { "math": [ "u_randomlimb", "==", "1" ] },
+        "then": [ { "math": [ "u_hp('torso')", "-=", "rng( 5, 15)" ] } ]
+      },
+      {
+        "if": { "math": [ "u_randomlimb", "==", "2" ] },
+        "then": [ { "math": [ "u_hp('arm_r')", "-=", "rng( 5, 15)" ] } ]
+      }
+    ]
+  }
+]
