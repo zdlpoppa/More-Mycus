@@ -5,7 +5,7 @@
     "name": "Extra fungal stuff",
     "authors": [ "Bamboozled", "detahramet", "7829" ],
     "description": "More Fungal mobs mutations items and more, WIP",
-    "category": "content",
+    "category": "misc",
     "dependencies": [ "dda" ]
   }
 ]
