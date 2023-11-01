@@ -1,12 +1,11 @@
 [
   {
     "type": "recipe",
-    "activity_level": "MODERATE_EXERCISE",
     "result": "FestedCrossbow",
-    "category": "CC_*",
-    "subcategory": "CSC_*_NESTED",
-    "skill_used": "fabrication",
     "autolearn": true,
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "fabrication",
     "proficiencies": [
       { "proficiency": "prof_bowyery", "time_multiplier": 1.5, "skill_penalty": 0.15 },
       { "proficiency": "prof_gunsmithing_spring" },
