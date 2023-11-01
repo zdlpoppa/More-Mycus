@@ -7,7 +7,7 @@
     "color": "light_gray",
     "name": { "str": "Fungalized crossbow" },
     "reload_noise_volume": 3,
-    "description": "A high-power crossbow with shaped cams and extra cables for high-po.",
+    "description": "A mycus-altered crossbow. bark-like grey fibers across it's entire body, and the bowstring to has been replaced with a thicker fiber stem, presumably tooken from some mycus entity. It seems to respond to your grip.",
     "price": 0,
     "material": [ "steel","alien fungal matter" ],
     "flags": [ "PRIMITIVE_RANGED_WEAPON" ],
