@@ -13,6 +13,6 @@
     ],
     "difficulty": 5,
     "time": "20 m",
-    "components": [ [ [ "compositecrossbow", 1 ] ], [ [ "mycus_fruit", 1 ] ] ]
+    "components": [ [ [ "compcrossbow", 1 ] ], [ [ "mycus_fruit", 1 ] ] ]
   }
 ]
