@@ -6,6 +6,7 @@
     "category": "CC_*",
     "subcategory": "CSC_*_NESTED",
     "skill_used": "fabrication",
+    "autolearn": true,
     "proficiencies": [
       { "proficiency": "prof_bowyery", "time_multiplier": 1.5, "skill_penalty": 0.15 },
       { "proficiency": "prof_gunsmithing_spring" },
