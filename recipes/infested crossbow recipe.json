@@ -6,13 +6,8 @@
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "fabrication",
-    "proficiencies": [
-      { "proficiency": "prof_bowyery", "time_multiplier": 1.5, "skill_penalty": 0.15 },
-      { "proficiency": "prof_gunsmithing_spring" },
-      { "proficiency": "prof_carving", "time_multiplier": 1.5 }
-    ],
-    "difficulty": 5,
-    "time": "20 m",
-    "components": [ [ [ "compositecrossbow", 1 ] ], [ [ "mycus_fruit", 1 ] ] ]
+    "difficulty": 0,
+    "time": "5 m",
+    "components": [ [ [ "compcrossbow", 1 ] ], [ [ "mycus_fruit", 1 ] ] ]
   }
 ]
