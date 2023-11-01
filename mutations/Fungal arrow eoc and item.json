@@ -18,7 +18,7 @@
   {
     "type": "mutation",
     "id": "FungalArrow",
-    "name": { "str": "Ossified interlocking plate" },
+    "name": { "str": "Ossified arrow" },
     "points": 3,
     "description": "We have developed a thin ossified layer of fungi on our epidermis giving armour in addition to this we may forcefully seperate a small chuck of this layer to create airborn bolts.",
     "purifiable": false,
