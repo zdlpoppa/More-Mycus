@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "More_Fungal_Zombies",
+    "name": "More Fungal Zombies!",
+    "authors": [ "Bamboozled" ],
+    "description": "More Fungalicious zombies for your fungal needs! WIP.",
+	"category": "creatures",
+    "dependencies": [ "dda" ]
+  }
+]
