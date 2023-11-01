@@ -1,0 +1,42 @@
+[
+  {
+    "type": "effect_type",
+    "id": "hallucination_attacks",
+    "immune_flags": [ "MULTIMIND" ]
+  },
+  {
+    "type": "effect_type",
+    "id": "hallu",
+    "immune_flags": [ "MULTIMIND" ]
+  },
+  {
+    "type": "effect_type",
+    "id": "fearparalyze",
+    "immune_flags": [ "MULTIMIND" ]
+  },
+  {
+    "type": "effect_type",
+    "id": "visuals",
+    "immune_flags": [ "MULTIMIND" ]
+  },
+  {
+    "type": "effect_type",
+    "id": "taint",
+    "immune_flags": [ "MULTIMIND" ]
+  },
+  {
+    "type": "effect_type",
+    "id": "amigara",
+	"immune_flags": [ "MULTIMIND" ]
+  },
+  {
+    "id": "tindrift",
+    "type": "effect_type",
+    "immune_flags": [ "MULTIMIND"]
+  },
+  {
+    "id": "attention",
+    "type": "effect_type",
+    "immune_flags": [ "MULTIMIND"]
+  }
+]
