@@ -3,7 +3,7 @@
     "id": "mon_horse_fungus",
     "type": "MONSTER",
     "name": { "str": "Fungal horse" },
-    "description": "A surprisingly gentle conversion of this stalwart seems to leave it's general intelligence and integrity almost heightened. It's skin is paled a gentle white, and fungal tendrils seemed to have replaced some parts of it's mane, and it seems difficult to pull your eye's away for more than a few seconds. It doesn't seem to accept anything other than mycus fruits.",
+    "description": "A surprisingly gentle conversion of this stalwart seems to leave it's general intelligence and integrity almost heightened. It's skin is paled a gentle white, and fungal tendrils seemed to have replaced some parts of it's mane, and it seems difficult to pull your eye's away for more than a few seconds. It doesn't seem to accept anything other than mycus fruits",
     "default_faction": "fungus",
     "bodytype": "horse",
     "species": [ "FUNGUS" ],
@@ -29,7 +29,7 @@
     "special_attacks": [ [ "FUNGUS", 200 ] ],
     "zombify_into": "mon_zombie_horse_fungus",
     "petfood": { "food": [ "mycus" ], "feed": "The %s seems to like you!  It lets you pat its head and seems friendly." },
-    "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "PET_WONT_FOLLOW", "PET_MOUNTABLE", "WARM" ],
+    "flags": [ "SEES", "HEARS", "SMELLS", "PET_WONT_FOLLOW", "PET_MOUNTABLE", "NO_BREATHE" ],
     "armor": { "bash": 2, "electric": 1 }
    },
     {
@@ -85,7 +85,7 @@
     "harvest": "cow_with_skull",
     "families": [ "prof_intro_biology" ],
     "special_attacks": [ [ "FUNGUS", 200 ] ],
-    "petfood": { "food": [ "mycus" ], "feed": "The %s seems to like you!  It lets you pat its head and seems friendly." },
+    "petfood": { "food": [ "mycus" ], "feed": "The %s seems to like you!  It lets you pat its head and seems friendly" },
     "flags": [
       "HEARS",
       "SMELLS",
@@ -99,7 +99,7 @@
     "id": "mon_fungal_heart",
     "type": "MONSTER",
     "name": { "str": "Fungal heart" },
-    "description": "A knot of tubular roots, flowing with sap and beating like a heart.  Strands of vascular tissue reach out to the surrounding root walls.",
+    "description": "A knot of tubular roots, flowing with sap and beating like a heart.  Strands of vascular tissue reach out to the surrounding root walls",
     "default_faction": "fungus",
     "species": [ "FUNGUS" ],
     "diff": 50,
