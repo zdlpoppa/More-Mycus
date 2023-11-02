@@ -14,7 +14,7 @@
   {
     "type": "recipe",
     "activity_level": "NO_EXERCISE",
-    "result": "fungal_plate_alive",
+    "result": "fungal_plate_aliveLEG",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_SUIT",
     "skill_used": "tailor",
@@ -46,5 +46,41 @@
     "difficulty": 0,
     "time": "1 h",
     "components": [ [ [ "compcrossbow", 1 ] ], [ [ "mycus_fruit", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "NO_EXERCISE",
+    "result": "fungal_plate_aliveARM",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "tailor",
+    "difficulty": 0,
+    "time": "1 h",
+    "autolearn": true,
+    "components": [ [ [ "mycus_fruit", 1 ] ] ]
+    },
+    {
+    "type": "recipe",
+    "activity_level": "NO_EXERCISE",
+    "result": "fungal_plate_aliveTORSO",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "tailor",
+    "difficulty": 0,
+    "time": "1 h",
+    "autolearn": true,
+    "components": [ [ [ "mycus_fruit", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "NO_EXERCISE",
+    "result": "alien_fungi_coat",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "tailor",
+    "difficulty": 0,
+    "time": "1 h",
+    "autolearn": true,
+    "components": [ [ [ "mycus_fruit", 1 ] ], [ [ "armor_mercenary_top", 1 ] ] ]
   }
 ]
