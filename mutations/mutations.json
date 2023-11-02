@@ -1,0 +1,85 @@
+[
+  {
+    "type": "mutation",
+    "id": [ "MFINGER" ],
+    "name": { "str": "Growable Manipulators" },
+    "points": 9,
+    "active": true,
+    "purifiable": false,
+    "prereqs": [ "MFINGER_BAD" ],
+    "threshreq": [ "THRESH_MYCUS" ],
+    "category": [ "MYCUS" ],
+    "description": "Previous Growths have merged into a symbiotic form with human anatomy. activate to grow tendrils",
+    "transform": {
+      "target": "MFINGER_active",
+      "msg_transform": "We Grow A set of slow but fine tendrils according to local guidance.",
+      "active": false,
+      "moves": 50
+    }
+  },
+  {
+    "type": "mutation",
+    "id": [ "MFINGER_active" ],
+    "name": { "str": "Mature Manipulators" },
+    "active": true,
+    "valid": false,
+    "points": 9,
+    "visibility": 10,
+    "ugliness": 10,
+    "passive_mods": { "dex_mod": 2 },
+    "enchantments": [ { "condition": "ALWAYS", "values": [ { "value": "RECOIL_MODIFIER", "multiply": -0.25 } ] } ],
+    "integrated_armor": [ "integrated_tendrils" ],
+    "description": "Our heightened manipulation increases not only our dexterity, it also decreases kinetic shock from recoil. This come's with extreme abnormal growths along the hand preventing wearing any of glove, activate to return to normal",
+    "transform": {
+      "target": "MFINGER",
+      "msg_transform": "Our Tendrils sink back into our flesh according to guidance.",
+      "active": false,
+      "moves": 100
+    }
+  },
+  {
+    "type": "mutation",
+    "id": "HIVE_MIND",
+    "name": { "str": "Gestalt consciousness" },
+    "points": 4,
+    "flags": [ "PSYCHOPATH", "PORTAL_PROOF", "MULTIMIND" ],
+    "description": "local physiology has being fully integrated with the central processing organ, our interconnected minds prevent weaker psychological attacks, but any sense of emotion or facial expression has been lost in the process, making us 'repulsive' to be around. They must change",
+    "cancels": [ "TRUTHTELLER", "LIAR", "SLOWLEARNER", "FASTLEARNER", "CEPH_MIND" ],
+    "purifiable": false,
+    "types": [ "HUMAN_EMPATHY" ],
+    "social_modifiers": { "lie": -70, "persuade": -70 },
+    "enchantments": [ { "condition": "ALWAYS", "values": [ { "value": "LEARNING_FOCUS", "add": -8 } ] } ],
+    "skill_rust_multiplier": 0.6,
+    "category": [ "MYCUS" ],
+    "prereqs": [ "LOUD_MIND" ],
+    "threshreq": [ "THRESH_MYCUS" ]
+  },
+  {
+    "type": "mutation",
+    "id": [ "MFINGER_BAD" ],
+    "name": { "str": "Abnormal Growth" },
+    "changes_to": [ "MFINGER" ],
+    "category": [ "MYCUS" ],
+    "prereqs": [ "M_SKIN3" ],
+    "threshreq": [ "THRESH_MYCUS" ],
+    "active": true,
+    "valid": false,
+    "points": -8,
+    "visibility": 10,
+    "ugliness": 10,
+    "integrated_armor": [ "integrated_tendrilsBAD" ],
+    "description": "We have began physical changes to our hand's external structure, but the quality is extremely crude,"
+  },
+  {
+    "type": "mutation",
+    "id": "LOUD_MIND",
+    "name": { "str": "Proto Hive mind " },
+    "points": -7,
+    "description": "We have begin the first steps to create a wider information network with the rest of us. the lack of regulatory nodes has let to a decrease amount of order and efficieny within the guide's processing organ -4 intelligence.",
+    "changes_to": [ "HIVE_MIND" ],
+    "category": [ "MYCUS" ],
+    "prereqs": [ "M_IMMUNE" ],
+    "threshreq": [ "THRESH_MYCUS" ],
+    "passive_mods": { "int_mod": -4 }
+  }
+]
