@@ -41,6 +41,6 @@
     "material_thickness": 4,
     "valid_mods": [ "steel_padded" ],
     "environmental_protection": 2,
-    "flags": [ "POCKETS", "STURDY", "WATERPROOF", "OUTER" ]
+    "flags": [ "STURDY", "WATERPROOF", "OUTER" ]
   }
 ]
