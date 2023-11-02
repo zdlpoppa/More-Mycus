@@ -1,0 +1,60 @@
+[
+  {
+    "id": "fungal_plate_aliveARM",
+    "type": "ARMOR",
+    "category": "armor",
+    "name": { "str": "mature fungal chained arm plate" },
+    "description": "this isn't armor or clothing for that matter it's something else entirely it moves and twitches when you poke it, putting it on it automatically gathersa to your arms and helps with movement the fleshy tendrils hold something hard like a shell or a ballistic plate?",
+    "weight": "5 kg",
+    "volume": "1250 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [ "alien_carapace", "flesh" ],
+    "symbol": ",",
+    "color": "light_gray",
+    "material_thickness": 5,
+    "non_functional": "fungal_plate_deadARM",
+    "damage_verb": "dies off as a large amount of gray liquid oozes",
+    "flags": [ "ABLATIVE_FUNGAL_ARM_ARMOR", "CANT_WEAR", "TRADER_AVOID", "OUTER", "STURDY" ],
+    "armor": [
+      {
+        "encumbrance": 0,
+        "coverage": 85,
+        "cover_melee": 46,
+        "covers": [ "arm_l", "arm_r" ],
+        "material": [
+          { "type": "alien_carapace", "covered_by_mat": 100, "thickness": 2.0 },
+          { "type": "flesh", "covered_by_mat": 100, "thickness": 3.0 }
+		 ]
+      }
+    ]
+  },
+  {
+    "id": "fungal_plate_deadARM",
+    "type": "ARMOR",
+    "category": "armor",
+    "name": { "str": "dead fungal chained arm plate" },
+    "description": "the flesh is visibily scarred and you can occasionally see gray liquid moving inside, the tendrils have withered away and the flesh seems to move erraticall like it's buring the plates are gone however you sometimes get a glimpse of newly formed flesh",
+    "weight": "2 kg",
+    "volume": "500 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [ "flesh" ],
+    "symbol": ",",
+    "color": "light_gray",
+    "material_thickness": 4,
+    "countdown_interval": "12 hours",
+    "countdown_action": { "type": "message", "message": "crumbles back to life" },
+    "revert_to": "fungal_plate_aliveTORSO",
+    "flags": [ "ABLATIVE_FUNGAL_ARM_ARMOR", "CANT_WEAR", "TRADER_AVOID", "OUTER", "SPAWN_ACTIVE" ],
+    "armor": [
+      {
+        "encumbrance": 10,
+        "coverage": 47,
+        "cover_melee": 24,
+        "covers": [ "arm_l", "arm_r" ],
+        "material": [ { "type": "flesh", "covered_by_mat": 100, "thickness": 2.0 } ]
+      }
+    ]
+  }
+]
