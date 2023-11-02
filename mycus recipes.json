@@ -1,0 +1,49 @@
+[
+  {
+    "type": "recipe",
+    "activity_level": "NO_EXERCISE",
+    "result": "mycuspetfood",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_OTHER",
+    "skill_used": "cooking",
+    "difficulty": 0,
+    "time": "1 s",
+    "autolearn": true,
+    "components": [ [ [ "mycus_fruit", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "NO_EXERCISE",
+    "result": "fungal_plate_alive",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "tailor",
+    "difficulty": 0,
+    "time": "1 h",
+    "autolearn": true,
+    "components": [ [ [ "mycus_fruit", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "NO_EXERCISE",
+    "result": "alien_fungi_pants",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "tailor",
+    "difficulty": 0,
+    "time": "1 h",
+    "autolearn": true,
+    "components": [ [ [ "mycus_fruit", 1 ] ], [ [ "armor_mercenary_bottom", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "FestedCrossbow",
+    "autolearn": true,
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "fabrication",
+    "difficulty": 0,
+    "time": "1 h",
+    "components": [ [ [ "compcrossbow", 1 ] ], [ [ "mycus_fruit", 1 ] ] ]
+  }
+]
