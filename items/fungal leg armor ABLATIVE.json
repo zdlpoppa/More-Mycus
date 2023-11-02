@@ -53,7 +53,7 @@
         "coverage": 47,
         "cover_melee": 24,
         "covers": [ "leg_l", "leg_r" ],
-        "material": [ { "type": "flesh", "covered_by_mat": 100, "thickness": 4.0 } ]
+        "material": [ { "type": "flesh", "covered_by_mat": 100, "thickness": 2.0 } ]
       }
     ]
   }
