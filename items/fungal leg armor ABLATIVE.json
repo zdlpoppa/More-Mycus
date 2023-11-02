@@ -14,7 +14,7 @@
     "color": "dark_gray",
     "material_thickness": 5,
     "non_functional": "fungal_plate_deadLEG",
-    "damage_verb": "a large chuck gets thrown off exposing beneath a broken husk",
+    "damage_verb": "a large chuck of your fungal leg chain gets thrown off exposing beneath a broken husk",
     "flags": [ "ABLATIVE_FUNGAL_LEG_ARMOR", "CANT_WEAR", "TRADER_AVOID", "OUTER", "STURDY" ],
     "armor": [
       {
@@ -44,7 +44,7 @@
     "color": "dark_gray",
     "material_thickness": 4,
     "countdown_interval": "12 hours",
-    "countdown_action": { "type": "message", "message": "the plate gets founds life as the final pieces of organic matter are formed." },
+    "countdown_action": { "type": "message", "message": "your fungal leg chain crumbes back to life as it has finishing healing." },
     "revert_to": "fungal_plate_aliveLEG",
     "flags": [ "ABLATIVE_FUNGAL_LEG_ARMOR", "CANT_WEAR", "TRADER_AVOID", "OUTER", "SPAWN_ACTIVE" ],
     "armor": [
