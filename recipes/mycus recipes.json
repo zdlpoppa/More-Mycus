@@ -37,6 +37,7 @@
   },
   {
     "type": "recipe",
+    "activity_level": "NO_EXERCISE",
     "result": "FestedCrossbow",
     "autolearn": true,
     "category": "CC_WEAPON",
