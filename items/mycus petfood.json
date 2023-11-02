@@ -1,0 +1,24 @@
+[
+  {
+    "id": "mycuspetfood",
+    "type": "COMESTIBLE",
+    "comestible_type": "FOOD",
+    "name": { "str_sp": "mycus pet food" },
+    "description": "use this to mount a fungal horse or something similar. ideally you wouldn't need this item.",
+    "weight": "300 g",
+    "volume": "250 ml",
+    "price": 100,
+    "price_postapoc": 25,
+    "to_hit": -5,
+    "material": [ "veggy" ],
+    "symbol": ";",
+    "quench": 1,
+    "calories": 170,
+    "fun": 5,
+    "freezing_point": -274,
+    "color": "dark_gray",
+    "flags": [ "INEDIBLE", "CATTLE" ],
+    "use_action": [ "PETFOOD" ],
+    "petfood": [ "mycus" ]
+   }
+]
