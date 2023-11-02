@@ -30,7 +30,7 @@
     "families": [ "prof_intro_biology" ],
     "special_attacks": [ [ "EAT_CROP", 60 ] ],
     "zombify_into": "mon_zombie_horse_fungus",
-    "petfood": { "food": [ "mycus_fruit" ], "feed": "The %s seems to like you!  It lets you pat its head and seems friendly." },
+    "petfood": { "food": [ "mycus" ], "feed": "The %s seems to like you!  It lets you pat its head and seems friendly." },
     "flags": [ "SEES", "HEARS", "SMELLS", "ANIMAL", "PET_WONT_FOLLOW", "PET_MOUNTABLE", "PATH_AVOID_DANGER_1", "WARM", "MILKABLE" ],
     "armor": { "bash": 2, "electric": 1 }
    },
@@ -92,7 +92,7 @@
     "baby_flags": [ "SPRING", "SUMMER", "AUTUMN" ],
     "biosignature": { "biosig_item": "feces_cow", "biosig_timer": 1 },
     "special_attacks": [ [ "FUNGUS", 200 ] ],
-    "petfood": { "food": [ "mycus_fruit" ], "feed": "The %s seems to like you!  It lets you pat its head and seems friendly." },
+    "petfood": { "food": [ "mycus" ], "feed": "The %s seems to like you!  It lets you pat its head and seems friendly." },
     "flags": [
       "HEARS",
       "SMELLS",
