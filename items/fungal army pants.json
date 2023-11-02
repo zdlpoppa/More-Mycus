@@ -9,14 +9,14 @@
     "price": 3500000,
     "price_postapoc": 0,
     "to_hit": -8,
-    "material": [ "kevlar_layered", "canvas" ],
+    "material": [ "kevlar_layered", "nylon" ],
     "symbol": "[",
     "looks_like": "pants_army",
     "color": "green",
     "armor": [
       {
         "material": [
-          { "type": "leather", "covered_by_mat": 100, "thickness": 0.5 },
+          { "type": "nylon", "covered_by_mat": 100, "thickness": 0.5 },
           { "type": "kevlar_layered", "covered_by_mat": 100, "thickness": 4.4 }
         ],
         "encumbrance": 7,
