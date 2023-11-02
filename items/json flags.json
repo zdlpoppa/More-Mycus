@@ -1,0 +1,8 @@
+[
+  {
+   "id": "ABLATIVE_FUNGAL_LEG_ARMOR",
+    "type": "json_flag",
+    "info": "You can insert this organism <info>with symbiotic armor</info> without encumbrance penalty",
+    "restriction": "Item must have lines for fungal organism to grow into"
+  }
+]
