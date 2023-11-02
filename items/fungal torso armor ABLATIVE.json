@@ -14,7 +14,7 @@
     "color": "light_gray",
     "material_thickness": 5,
     "non_functional": "fungal_plate_deadTORSO",
-    "damage_verb": "dies off as a large amount of gray liquid oozes",
+    "damage_verb": "the fungal chained torso plate creaks as large pieces of it's biomass are violently destroyed",
     "flags": [ "ABLATIVE_FUNGAL_TORSO_ARMOR", "CANT_WEAR", "TRADER_AVOID", "OUTER", "STURDY" ],
     "armor": [
       {
@@ -44,7 +44,7 @@
     "color": "light_gray",
     "material_thickness": 4,
     "countdown_interval": "12 hours",
-    "countdown_action": { "type": "message", "message": "crumbles back to life" },
+    "countdown_action": { "type": "message", "message": "your fungal chained torso plate crumbles back to life as new biomass has being added" },
     "revert_to": "fungal_plate_aliveTORSO",
     "flags": [ "ABLATIVE_FUNGAL_TORSO_ARMOR", "CANT_WEAR", "TRADER_AVOID", "OUTER", "SPAWN_ACTIVE" ],
     "armor": [
