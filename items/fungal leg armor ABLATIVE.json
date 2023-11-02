@@ -4,26 +4,26 @@
     "type": "ARMOR",
     "category": "armor",
     "name": { "str": "mature fungal chained leg plate" },
-    "description": "this is a piece of unearthy plates combined with thin fleshy tendrils that hold onto it and help with movements like some kind of assisted servo it's yellow in appearance and each time you take you can feel it responding automatically",
-    "weight": "10 kg",
+    "description": "this is a piece of unearthy plates combined with thin fleshy tendrils that hold onto it and help with movements like some kind of assisted servo it's gray in appearance and each time you walk you can feel it responding automatically",
+    "weight": "5 kg",
     "volume": "1250 ml",
     "price": 0,
     "price_postapoc": 0,
     "material": [ "alien_carapace", "flesh" ],
     "symbol": ",",
-    "color": "light_gray",
+    "color": "dark_gray",
     "material_thickness": 5,
     "non_functional": "fungal_plate_deadLEG",
-    "damage_verb": "dies off as a large amount of gray liquid oozes",
+    "damage_verb": "a large chuck gets thrown off exposing beneath a broken husk",
     "flags": [ "ABLATIVE_FUNGAL_LEG_ARMOR", "CANT_WEAR", "TRADER_AVOID", "OUTER", "STURDY" ],
     "armor": [
       {
-        "encumbrance": 1,
+        "encumbrance": 0,
         "coverage": 85,
         "cover_melee": 46,
         "covers": [ "leg_l", "leg_r" ],
         "material": [
-          { "type": "alien_carapace", "covered_by_mat": 100, "thickness": 1.0 },
+          { "type": "alien_carapace", "covered_by_mat": 100, "thickness": 2.0 },
           { "type": "flesh", "covered_by_mat": 100, "thickness": 3.0 }
 		 ]
       }
@@ -35,16 +35,16 @@
     "category": "armor",
     "name": { "str": "dead fungal chained leg plate" },
     "description": "most of the hard fungi shell is stripped and it's tendrils are missing leaving behind scraps of flesh that hinder your movement the flesh is still moving although eratically like it's burning and occasionally you can see new bits of flesh being formed",
-    "weight": "3 kg",
+    "weight": "2 kg",
     "volume": "500 ml",
     "price": 0,
     "price_postapoc": 0,
    "material": [ "flesh" ],
     "symbol": ",",
-    "color": "light_gray",
+    "color": "dark_gray",
     "material_thickness": 4,
     "countdown_interval": "12 hours",
-    "countdown_action": { "type": "message", "message": "crumbles back to life" },
+    "countdown_action": { "type": "message", "message": "the plate gets founds life as the final pieces of organic matter are formed." },
     "revert_to": "fungal_plate_aliveLEG",
     "flags": [ "ABLATIVE_FUNGAL_LEG_ARMOR", "CANT_WEAR", "TRADER_AVOID", "OUTER", "SPAWN_ACTIVE" ],
     "armor": [
@@ -53,7 +53,7 @@
         "coverage": 47,
         "cover_melee": 24,
         "covers": [ "leg_l", "leg_r" ],
-        "material": [ { "type": "flesh", "covered_by_mat": 100, "thickness": 2.0 } ]
+        "material": [ { "type": "flesh", "covered_by_mat": 100, "thickness": 4.0 } ]
       }
     ]
   }
