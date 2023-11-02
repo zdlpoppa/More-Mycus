@@ -11,10 +11,10 @@
     "price_postapoc": 0,
     "material": [ "alien_carapace", "flesh" ],
     "symbol": ",",
-    "color": "dark_gray",
+    "color": "light_gray",
     "material_thickness": 5,
     "non_functional": "fungal_plate_deadLEG",
-    "damage_verb": "a large chuck gets thrown off exposing beneath a broken husk",
+    "damage_verb": "dies off as a large amount of gray liquid oozes",
     "flags": [ "ABLATIVE_FUNGAL_LEG_ARMOR", "CANT_WEAR", "TRADER_AVOID", "OUTER", "STURDY" ],
     "armor": [
       {
@@ -41,10 +41,10 @@
     "price_postapoc": 0,
    "material": [ "flesh" ],
     "symbol": ",",
-    "color": "dark_gray",
+    "color": "light_gray",
     "material_thickness": 4,
     "countdown_interval": "12 hours",
-    "countdown_action": { "type": "message", "message": "the plate gets founds life as the final pieces of organic matter are formed." },
+    "countdown_action": { "type": "message", "message": "crumbles back to life" },
     "revert_to": "fungal_plate_aliveLEG",
     "flags": [ "ABLATIVE_FUNGAL_LEG_ARMOR", "CANT_WEAR", "TRADER_AVOID", "OUTER", "SPAWN_ACTIVE" ],
     "armor": [
