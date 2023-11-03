@@ -15,7 +15,7 @@
     "material_thickness": 5,
     "non_functional": "fungal_plate_deadBOOT",
     "damage_verb": "the fungal chained boot plate creaks as large pieces of it are destroyed",
-    "flags": [ "ABLATIVE_FUNGAL_GLOVE_ARMOR", "CANT_WEAR", "TRADER_AVOID", "OUTER", "STURDY" ],
+    "flags": [ "ABLATIVE_FUNGAL_BOOT_ARMOR", "CANT_WEAR", "TRADER_AVOID", "OUTER", "STURDY" ],
     "armor": [
       {
         "encumbrance": 0,
@@ -46,7 +46,7 @@
     "countdown_interval": "12 hours",
     "countdown_action": { "type": "message", "message": "your fungal chained boot plate has healed" },
     "revert_to": "fungal_plate_aliveBOOT",
-    "flags": [ "ABLATIVE_FUNGAL_GLOVE_ARMOR", "CANT_WEAR", "TRADER_AVOID", "OUTER", "SPAWN_ACTIVE" ],
+    "flags": [ "ABLATIVE_FUNGAL_BOOT_ARMOR", "CANT_WEAR", "TRADER_AVOID", "OUTER", "SPAWN_ACTIVE" ],
     "armor": [
       {
         "encumbrance": 10,
