@@ -4,7 +4,7 @@
     "type": "ARMOR",
     "name": { "str": "fungal army vest" },
     "description": "this used to be a vest lined with hard kevlar panels theses are gone now and replaced by something you never seen before",
-    "weight": "10 kg",
+    "weight": "5 kg",
     "volume": "7500 ml",
     "price": 750000,
     "price_postapoc": 0,
