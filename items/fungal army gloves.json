@@ -1,0 +1,48 @@
+[
+  { 
+    "id": "alien_fungi_gloves",
+    "type": "ARMOR",
+    "category": "armor",
+    "name": { "str": "pair of fungal gloves", "str_pl": "pairs fungal gloves" },
+    "description": "this used to be a pair of heavy gloves lined with kevlar, most of the heavy fabric beneath has being removed and replaced by something else",
+    "weight": "3 kg",
+    "volume": "750 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "to_hit": -8,
+    "material": [ "kevlar_layered", "nylon" ],
+    "symbol": "[",
+    "looks_like": "fire_gauntlets",
+    "color": "green",
+    "armor": [
+      {
+        "material": [
+          { "type": "nylon", "covered_by_mat": 100, "thickness": 2.0 },
+          { "type": "kevlar_layered", "covered_by_mat": 100, "thickness": 4.4 }
+        ],
+        "encumbrance": 7,
+        "coverage": 100,
+        "cover_melee": 15,
+        "covers": [ "hand_l", "hand_r" ]
+      }
+    ],
+    "pocket_data": [
+      {
+        "flag_restriction": [ "ABLATIVE_FUNGAL_GLOVE_ARMOR" ],
+        "description": "you could put something alive in the lined edges",
+        "volume_encumber_modifier": 0,
+		"ablative": true,
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "250 ml",
+        "max_contains_weight": "1 kg",
+        "max_item_length": "30 cm",
+        "moves": 3500
+      }
+    ],
+    "warmth": 25,
+    "material_thickness": 5,
+    "valid_mods": [ "steel_padded" ],
+    "environmental_protection": 2,
+    "flags": [ "STURDY", "WATERPROOF", "OUTER" ]
+  }
+]
