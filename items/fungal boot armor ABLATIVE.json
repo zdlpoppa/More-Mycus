@@ -1,0 +1,60 @@
+[
+  {
+    "id": "fungal_plate_aliveBOOT",
+    "type": "ARMOR",
+    "category": "armor",
+    "name": { "str": "mature fungal chained boot plate" },
+    "description": "this is a large piece of fungal tendrils and plates attached to it, it's twiching and seems to move out of your way when movement is required",
+    "weight": "1 kg",
+    "volume": "750 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [ "alien_carapace", "flesh" ],
+    "symbol": ",",
+    "color": "light_gray",
+    "material_thickness": 5,
+    "non_functional": "fungal_plate_deadBOOT",
+    "damage_verb": "the fungal chained boot plate creaks as large pieces of it are destroyed",
+    "flags": [ "ABLATIVE_FUNGAL_GLOVE_ARMOR", "CANT_WEAR", "TRADER_AVOID", "OUTER", "STURDY" ],
+    "armor": [
+      {
+        "encumbrance": 0,
+        "coverage": 85,
+        "cover_melee": 46,
+        "covers": [ "foot_l", "foot_r" ],
+        "material": [
+          { "type": "alien_carapace", "covered_by_mat": 100, "thickness": 2.0 },
+          { "type": "flesh", "covered_by_mat": 100, "thickness": 3.0 }
+		 ]
+      }
+    ]
+  },
+  {
+    "id": "fungal_plate_deadBOOT",
+    "type": "ARMOR",
+    "category": "armor",
+    "name": { "str": "dead fungal chained boot plate" },
+    "description": "the fungus is completly scarred with occasional drops of gray fluids dropping to the floor it's moving erratically and hindering your movement sometimes you get a glimpse of new flesh forming right before your eyes",
+    "weight": "50 g",
+    "volume": "250 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [ "flesh" ],
+    "symbol": ",",
+    "color": "light_gray",
+    "material_thickness": 4,
+    "countdown_interval": "12 hours",
+    "countdown_action": { "type": "message", "message": "your fungal chained boot plate has healed" },
+    "revert_to": "fungal_plate_aliveBOOT",
+    "flags": [ "ABLATIVE_FUNGAL_GLOVE_ARMOR", "CANT_WEAR", "TRADER_AVOID", "OUTER", "SPAWN_ACTIVE" ],
+    "armor": [
+      {
+        "encumbrance": 10,
+        "coverage": 47,
+        "cover_melee": 24,
+        "covers": [ "foot_l", "foot_r" ],
+        "material": [ { "type": "flesh", "covered_by_mat": 100, "thickness": 2.0 } ]
+      }
+    ]
+  }
+]
