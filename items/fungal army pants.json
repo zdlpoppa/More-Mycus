@@ -4,7 +4,7 @@
     "type": "ARMOR",
     "name": { "str_sp": "fungal army pants" },
     "description": "this used to be a pair of heavy pants lined with kevlar, most of the heavy fabric beneath has being removed and replaced by something else",
-    "weight": "6 kg",
+    "weight": "3 kg",
     "volume": "5500 ml",
     "price": 3500000,
     "price_postapoc": 0,
