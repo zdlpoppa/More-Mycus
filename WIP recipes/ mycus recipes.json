@@ -33,7 +33,7 @@
     "difficulty": 0,
     "time": "1 h",
     "autolearn": true,
-    "components": [ [ [ "mycus_fruit", 1 ] ], [ [ "armor_mercenary_bottom", 1 ] ] ]
+    "components": [ [ [ "mycus_fruit", 1 ] ], [ [ "pants_army", 1 ] ] ]
   },
   {
     "type": "recipe",
@@ -81,7 +81,7 @@
     "difficulty": 0,
     "time": "1 h",
     "autolearn": true,
-    "components": [ [ [ "mycus_fruit", 1 ] ], [ [ "armor_mercenary_top", 1 ] ] ]
+    "components": [ [ [ "mycus_fruit", 1 ] ], [ [ "kevlar", 1 ] ] ]
   },
   {
     "type": "recipe",
