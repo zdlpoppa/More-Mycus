@@ -23,6 +23,7 @@
     "name": { "str": "Mature Manipulators" },
     "active": true,
     "valid": false,
+	"purifiable": false,
     "points": 9,
     "visibility": 10,
     "ugliness": 10,
@@ -62,6 +63,7 @@
     "category": [ "MYCUS" ],
     "prereqs": [ "M_SKIN3" ],
     "threshreq": [ "THRESH_MYCUS" ],
+	"purifiable": false,
     "active": true,
     "valid": false,
     "points": -8,
@@ -73,13 +75,27 @@
   {
     "type": "mutation",
     "id": "LOUD_MIND",
-    "name": { "str": "Proto Hive mind" },
+    "name": { "str": "Proto Hive mind " },
     "points": -7,
+	"purifiable": false,
     "description": "We have begin the first steps to create a wider information network with the rest of us. the lack of regulatory nodes has let to a decrease amount of order and efficieny within the guide's processing organ -4 intelligence.",
     "changes_to": [ "HIVE_MIND" ],
     "category": [ "MYCUS" ],
     "prereqs": [ "M_IMMUNE" ],
     "threshreq": [ "THRESH_MYCUS" ],
     "passive_mods": { "int_mod": -4 }
+  },
+  {
+    "type": "mutation",
+    "id": "NO_BLOOD",
+    "name": { "str": "No blood" },
+    "points": +9,
+	"purifiable": false,
+    "flags": [ "BLEED_IMMUNE" ],
+	"types": [ "BLOOD" ],
+    "description": "any remaning vascular system has being fully replaced by mycus physiology this gives us immunity to bleeding",
+    "category": [ "MYCUS" ],
+    "prereqs": [ "M_IMMUNE" ],
+    "threshreq": [ "THRESH_MYCUS" ]
   }
 ]
