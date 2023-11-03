@@ -82,5 +82,29 @@
     "time": "1 h",
     "autolearn": true,
     "components": [ [ [ "mycus_fruit", 1 ] ], [ [ "armor_mercenary_top", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "NO_EXERCISE",
+    "result": "alien_fungi_gloves",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "tailor",
+    "difficulty": 0,
+    "time": "1 h",
+    "autolearn": true,
+    "components": [ [ [ "mycus_fruit", 1 ] ], [ [ "gloves_tactical", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "NO_EXERCISE",
+    "result": "fungal_plate_aliveGLOVE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "tailor",
+    "difficulty": 0,
+    "time": "1 h",
+    "autolearn": true,
+    "components": [ [ [ "mycus_fruit", 1 ] ] ]
   }
 ]
