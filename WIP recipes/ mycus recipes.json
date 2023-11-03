@@ -154,5 +154,29 @@
     "time": "1 h",
     "autolearn": true,
     "components": [ [ [ "mycus_fruit", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "NO_EXERCISE",
+    "result": "fungal_plate_aliveHELMET",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "tailor",
+    "difficulty": 0,
+    "time": "1 h",
+    "autolearn": true,
+    "components": [ [ [ "mycus_fruit", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "NO_EXERCISE",
+    "result": "alien_fungi_helmet",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "tailor",
+    "difficulty": 0,
+    "time": "1 h",
+    "autolearn": true,
+    "components": [ [ [ "mycus_fruit", 1 ] ], [ [ "tac_fullhelmet", 1 ] ] ]
   }
 ]
