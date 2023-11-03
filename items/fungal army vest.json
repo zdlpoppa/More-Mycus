@@ -3,7 +3,7 @@
     "id": "alien_fungi_vest",
     "type": "ARMOR",
     "name": { "str": "fungal army vest" },
-    "description": "this used to be a coat lined with hard kevlar panels theses are gone now and replaced by something you never seen before",
+    "description": "this used to be a vest lined with hard kevlar panels theses are gone now and replaced by something you never seen before",
     "weight": "10 kg",
     "volume": "7500 ml",
     "price": 750000,
