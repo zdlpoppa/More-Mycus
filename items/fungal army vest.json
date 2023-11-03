@@ -32,7 +32,7 @@
         "ablative": true,
         "volume_encumber_modifier": 0,
         "max_contains_volume": "2000 ml",
-        "max_contains_weight": "5 kg",
+        "max_contains_weight": "2 kg",
         "max_item_length": "30 cm",
         "moves": 3500,
         "description": "you could put something alive in the lined edges",
