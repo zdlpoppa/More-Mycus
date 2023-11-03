@@ -1,0 +1,60 @@
+[
+  {
+    "id": "fungal_plate_aliveHELMET",
+    "type": "ARMOR",
+    "category": "armor",
+    "name": { "str": "mature fungal chained torso plate" },
+    "description": "this is a large piece of fungal tendrils and plates attached to it, it's twiching and seems to move out of your way when movement is required. somehow when wearing it.. you feel humble",
+    "weight": "6 kg",
+    "volume": "1250 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [ "alien_carapace", "flesh" ],
+    "symbol": ",",
+    "color": "light_gray",
+    "material_thickness": 5,
+    "non_functional": "fungal_plate_deadHELMET",
+    "damage_verb": "the fungal chained helmet creaks as large pieces of it's biomass are violently destroyed",
+    "flags": [ "ABLATIVE_FUNGAL_HELMET_ARMOR", "CANT_WEAR", "TRADER_AVOID", "OUTER", "STURDY" ],
+    "armor": [
+      {
+        "encumbrance": 0,
+        "coverage": 85,
+        "cover_melee": 46,
+        "covers": [ "head","eyes", "mouth" ],
+        "material": [
+          { "type": "alien_carapace", "covered_by_mat": 100, "thickness": 2.0 },
+          { "type": "flesh", "covered_by_mat": 100, "thickness": 3.0 }
+		 ]
+      }
+    ]
+  },
+  {
+    "id": "fungal_plate_deadHELMET",
+    "type": "ARMOR",
+    "category": "armor",
+    "name": { "str": "dead fungal chained torso plate" },
+    "description": "the fungus is completly scarred with occasional drops of gray fluids dropping to the floor it's moving erratically and hindering your movement sometimes you get a glimpse of new flesh forming right before your eyes",
+    "weight": "4 kg",
+    "volume": "500 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [ "flesh" ],
+    "symbol": ",",
+    "color": "light_gray",
+    "material_thickness": 4,
+    "countdown_interval": "12 hours",
+    "countdown_action": { "type": "message", "message": "your fungal chained helmet crumbles back to life as new biomass has being added" },
+    "revert_to": "fungal_plate_aliveHELMET",
+    "flags": [ "ABLATIVE_FUNGAL_HELMET_ARMOR", "CANT_WEAR", "TRADER_AVOID", "OUTER", "SPAWN_ACTIVE" ],
+    "armor": [
+      {
+        "encumbrance": 10,
+        "coverage": 47,
+        "cover_melee": 24,
+        "covers": [ "head","eyes", "mouth" ],
+        "material": [ { "type": "flesh", "covered_by_mat": 100, "thickness": 2.0 } ]
+      }
+    ]
+  }
+]
