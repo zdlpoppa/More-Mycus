@@ -23,7 +23,7 @@
         "encumbrance": 3,
         "coverage": 100,
 		"cover_melee": 15,
-        "covers": [ "torso" ]
+        "covers": [ "arm_l", "arm_r" ]
       }
     ],
     "pocket_data": [
@@ -46,5 +46,3 @@
     "flags": [ "STURDY", "WATERPROOF", "OUTER" ]
 	   }
     ]
-  }
-]
