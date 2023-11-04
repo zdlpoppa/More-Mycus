@@ -360,7 +360,6 @@
     "harvest": "zombie_humanoid",
     "special_attacks": [ [ "FUNGUS", 240] ],
     "death_drops": "mon_zombie_hazmat_death_drops",
-    "burn_into": "mon_zombie_scorched",
     "flags": [
       "SEES",
       "HEARS",
