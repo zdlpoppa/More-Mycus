@@ -307,7 +307,6 @@
     "death_drops": {
       "subtype": "collection",
       "groups": [ [ "default_zombie_clothes", 100 ], [ "hive", 80 ] ],
-      "//": "cloth as any other zombie (always), additional items from group hive (sometimes)"
     },
     "flags": [
       "SEES",
@@ -355,9 +354,9 @@
         "coverage_mult": { "broad": 0.65 }
       }
     ],
-	"vision_day": 6,
+    "vision_day": 6,
     "vision_night": 3,
-	"bleed_rate": 0,
+    "bleed_rate": 0,
     "harvest": "zombie_humanoid",
     "special_attacks": [ [ "FUNGUS", 240] ],
     "death_drops": "mon_zombie_hazmat_death_drops",
@@ -400,11 +399,11 @@
     "melee_damage": [ { "damage_type": "cut", "amount": 2 } ],
     "dodge": 1,
     "families": [ "prof_intro_biology", "prof_wp_zombie" ],
-	"vision_day": 7,
-    "vision_night": 4,
-	"bleed_rate": 0,
+    "vision_day": 20,
+    "vision_night": 5,
+    "bleed_rate": 0,
     "harvest": "zombie_dog",
-    "special_attacks": [ [ "FUNGUS", 230], { "id": "bite_humanoid", "cooldown": 5 }, { "id": "scratch_humanoid" } ],
+    "special_attacks": [ [ "FUNGUS", 200], { "id": "bite_humanoid", "cooldown": 5 }, { "id": "scratch_humanoid" } ],
     "death_drops": "mon_dog_death_drops",
     "flags": [
       "SEES",
@@ -415,7 +414,6 @@
       "GROUP_BASH",
       "POISON",
       "NO_BREATHE",
-      "REVIVES",
       "PUSH_MON"
        ],
     "armor": { "electric": 1 }
@@ -446,7 +444,7 @@
     "families": [ "prof_intro_biology", "prof_wp_zombie" ],
     "vision_day": 30,
     "vision_night": 5,
-	"bleed_rate": 0,
+     "bleed_rate": 0,
     "harvest": "zombie_leather",
     "anger_triggers": [ "PLAYER_CLOSE", "HURT" ],
     "special_attacks": [ [ "FUNGUS", 160] ],
@@ -490,9 +488,9 @@
     "melee_damage": [ { "damage_type": "cut", "amount": 6 } ],
     "dodge": 2,
     "families": [ "prof_intro_biology", "prof_wp_zombie" ],
-    "vision_day": 12,
+    "vision_day": 24,
     "vision_night": 10,
-	"bleed_rate": 0,
+    "bleed_rate": 0,
     "harvest": "zombie_fur",
     "special_attacks": [ [ "FUNGUS", 190], { "type": "leap", "cooldown": 20, "max_range": 5 } ],
     "anger_triggers": [ "PLAYER_CLOSE", "HURT" ],
@@ -508,7 +506,6 @@
       "BASHES",
       "POISON",
       "NO_BREATHE",
-      "REVIVES",
       "FILTHY"
     ],
     "armor": { "bash": 1, "electric": 1 }
@@ -539,12 +536,12 @@
     "families": [ "prof_intro_biology", "prof_wp_zombie" ],
     "vision_day": 10,
     "vision_night": 3,
-	"bleed_rate": 0,
+    "bleed_rate": 0,
     "harvest": "zombie_leather",
     "anger_triggers": [ "PLAYER_CLOSE", "PLAYER_WEAK" ],
-	"special_attacks": [ [ "FUNGUS", 160] ],
+    "special_attacks": [ [ "FUNGUS", 160] ],
     "upgrades": { "half_life": 42, "into_group": "GROUP_ZOMBIE_HORSE_UPGRADE" },
-    "flags": [ "SEES", "HEARS", "SMELLS", "BASHES", "NO_BREATHE", "REVIVES" ],
+    "flags": [ "SEES", "HEARS", "SMELLS", "BASHES", "NO_BREATHE" ],
     "armor": { "bash": 5, "cut": 1, "electric": 2 }
   },
   {
@@ -562,7 +559,7 @@
     "symbol": "T",
     "melee_dice": 3,
     "dodge": 0,
-	"bleed_rate": 0,
+    "bleed_rate": 0,
     "armor": { "bash": 1, "electric": 2 }
   },
   {
@@ -590,11 +587,12 @@
     "melee_dice_sides": 3,
     "melee_damage": [ { "damage_type": "cut", "amount": 0 } ],
     "families": [ "prof_intro_biology", "prof_wp_zombie" ],
+    "vision_day": 20,
     "vision_night": 6,
-	"bleed_rate": 0,
+    "bleed_rate": 0,
     "harvest": "zombie_leather",
-	"special_attacks": [ [ "FUNGUS", 210] ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "POISON", "NO_BREATHE", "REVIVES", "FILTHY" ],
+    "special_attacks": [ [ "FUNGUS", 210] ],
+    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "POISON", "NO_BREATHE", "FILTHY" ],
     "armor": { "bash": 1, "cut": 3, "electric": 1 }
   },
   {
@@ -622,13 +620,13 @@
     "melee_dice_sides": 4,
     "melee_damage": [ { "damage_type": "cut", "amount": 3 } ],
     "families": [ "prof_intro_biology", "prof_wp_zombie" ],
-	"vision_day": 8,
-    "vision_night": 6,
-	"bleed_rate": 0,
+    "vision_day": 27,
+    "vision_night": 8,
+    "bleed_rate": 0,
     "harvest": "zombie_leather",
-	"special_attacks": [ [ "FUNGUS", 180] ],
+   "special_attacks": [ [ "FUNGUS", 180] ],
     "flags": [ 
-	  "SEES",
+       "SEES",
       "HEARS",
       "STUMBLES",
       "WARM",
@@ -642,4 +640,3 @@
     "armor": { "bash": 5, "cut": 4, "electric": 1 }
   }
   ]
-  
