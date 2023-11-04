@@ -62,7 +62,7 @@
     "special_attacks": [ [ "FUNGUS", 200 ] ],
     "death_function": { "effect": { "id": "death_fungus", "hit_self": true } },
     "flags": [ "SEES", "SMELLS", "POISON", "PATH_AVOID_FIRE", "PATH_AVOID_FALL" ],
-    "armor": { "bash": 1, "cut": 1, "bullet": 1, "electric": 2 }
+    "armor": { "bash": 3, "cut": 4, "bullet": 4, "electric": 2 }
   },
   {
     "id": "mon_triffid_heart_spored",
