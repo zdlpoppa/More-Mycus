@@ -42,7 +42,7 @@
       "PUSH_MON",
       "PUSH_VEH",
       "HARDTOSHOOT",
-      "FILTHY",
+      "FILTHY"
     ],
     "armor": { "bash": 20, "cut": 45, "bullet": 36, "electric": 8 }
   },
