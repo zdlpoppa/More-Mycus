@@ -370,7 +370,7 @@
       "POISON",
       "NO_BREATHE",
       "PUSH_MON",
-      "FILTHY",
+      "FILTHY"
     ],
     "armor": { "bash": 5, "cut": 5, "bullet": 3, "electric": 5 }
   },
