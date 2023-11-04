@@ -26,7 +26,6 @@
     "harvest": "horse_with_skull",
     "families": [ "prof_intro_biology" ],
     "special_attacks": [ [ "FUNGUS", 200 ] ],
-    "zombify_into": "mon_zombie_horse_fungus",
     "petfood": { "food": [ "mycus" ], "feed": "The %s seems to like you!  It lets you pat its head and seems friendly." },
     "flags": [ "SEES", "HEARS", "SMELLS", "PET_WONT_FOLLOW", "PET_MOUNTABLE", "NO_BREATHE", "PATH_AVOID_FIRE" ],
     "armor": { "bash": 2, "electric": 1 }
