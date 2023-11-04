@@ -323,58 +323,6 @@
     "armor": { "bash": 6, "cut": 8, "bullet": 6, "electric": 1 }
   },
   {
-    "id": "mon_zombie_hazmat_fungus",
-    "type": "MONSTER",
-    "name": { "str": "hazmat fungal" },
-    "description": "This zombie is completely encased in a protective suit that apparently failed to protect it from the infection, but the fungal spread as well. The spore clouds inside excape through a tear in the suit.",
-    "default_faction": "fungus",
-    "bodytype": "human",
-    "species": [ "FUNGUS" ],
-    "volume": "62500 ml",
-    "weight": "81500 g",
-    "hp": 90,
-    "speed": 70,
-    "material": [ "flesh" ],
-    "symbol": "Z",
-    "color": "white_green",
-    "aggression": 100,
-    "morale": 100,
-    "melee_skill": 3,
-    "melee_dice": 2,
-    "melee_dice_sides": 3,
-    "melee_damage": [ { "damage_type": "cut", "amount": 0 } ],
-    "weakpoint_sets": [ "wps_humanoid_body", "wps_humanoid_gasmask" ],
-    "families": [ "prof_intro_biology", "prof_wp_zombie", "prof_wp_syn_armored" ],
-    "weakpoints": [
-      {
-        "name": "a tear in its hazmat suit",
-        "armor_mult": { "all": 0.5 },
-        "coverage": 5,
-        "difficulty": { "ranged": 3, "melee": 1 },
-        "coverage_mult": { "broad": 0.65 }
-      }
-    ],
-    "vision_day": 6,
-    "vision_night": 3,
-    "bleed_rate": 0,
-    "harvest": "zombie_humanoid",
-    "special_attacks": [ [ "FUNGUS", 240] ],
-    "death_drops": "mon_zombie_hazmat_death_drops",
-    "flags": [
-      "SEES",
-      "HEARS",
-      "STUMBLES",
-      "WARM",
-      "BASHES",
-      "GROUP_BASH",
-      "POISON",
-      "NO_BREATHE",
-      "PUSH_MON",
-      "FILTHY"
-    ],
-    "armor": { "bash": 5, "cut": 5, "bullet": 3, "electric": 5 }
-  },
-  {
     "id": "mon_zombie_dog_fungus",
     "type": "MONSTER",
     "name": { "str": "Fungal dog" },
