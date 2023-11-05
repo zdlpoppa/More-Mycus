@@ -15,7 +15,7 @@
   },
   {
     "type": "mutation",
-    "id": "MYCUS_DEFENDER_GROWTH_BAD",
+    "id": "MYCUS_VALIANT_GROWTH_BAD",
 	"flags": [ "LARGE" ],
     "name": { "str": "Sudden Bulk" },
 	"purifiable": false,
@@ -58,7 +58,7 @@
   },
   {
     "type": "mutation",
-    "id": "MYCUS_DEFENDER_GROWTH_OK",
+    "id": "MYCUS_VALIANT_GROWTH_OK",
 	"flags": [ "LARGE" ],
     "name": { "str": "Fungal Bulk" },
 	"purifiable": false,
@@ -103,7 +103,7 @@
   },
   {
     "type": "mutation",
-    "id": "MYCUS_DEFENDER_GROWTH_GOOD",
+    "id": "MYCUS_VALIANT_GROWTH_GOOD",
 	"flags": [ "LARGE" ],
     "name": { "str": "Fungal Bulk" },
 	"purifiable": false,
@@ -147,7 +147,7 @@
   },
   {
     "type": "mutation",
-    "id": "MYCUS_DEFENDER_JUGGERNAUT",
+    "id": "MYCUS_VALIANT_JUGGERNAUT",
 	"//1": "Mutation gained possibly from quest/killing triffid heart. Add more inbetween mutations between this.",
 	"flags": [ "HUGE" ],
     "name": { "str": "Fungal Juggernaut" },
