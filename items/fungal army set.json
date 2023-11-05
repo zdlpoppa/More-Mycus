@@ -92,7 +92,7 @@
     "flags": [ "STURDY", "WATERPROOF", "OUTER" ]
   },
   {
-   "id": "alien_fungi_pants",
+    "id": "alien_fungi_pants",
     "type": "ARMOR",
     "name": { "str_sp": "fungal army pants" },
     "description": "this used to be a pair of heavy pants lined with kevlar, most of the heavy fabric beneath has being removed and replaced by something else",
@@ -122,7 +122,7 @@
         "flag_restriction": [ "ABLATIVE_FUNGAL_LEG_ARMOR" ],
         "description": "you could put something alive in the lined edges",
         "volume_encumber_modifier": 0,
-		"ablative": true,
+        "ablative": true,
         "pocket_type": "CONTAINER",
         "max_contains_volume": "1250 ml",
         "max_contains_weight": "5 kg",
@@ -159,7 +159,7 @@
         "volume_encumber_modifier": 0,
         "encumbrance": 3,
         "coverage": 100,
-		"cover_melee": 15,
+        "cover_melee": 15,
         "covers": [ "arm_l", "arm_r" ]
       }
     ],
@@ -206,7 +206,7 @@
         "encumbrance": 3,
         "coverage": 100,
         "cover_melee": 15,
-        "covers": [ "head","eyes", "mouth" ]
+        "covers": [ "head", "eyes", "mouth" ]
       }
     ],
     "pocket_data": [
@@ -214,7 +214,7 @@
         "flag_restriction": [ "ABLATIVE_FUNGAL_HELMET_ARMOR" ],
         "description": "you could put something alive in the lined edges",
         "volume_encumber_modifier": 0,
-		"ablative": true,
+        "ablative": true,
         "pocket_type": "CONTAINER",
         "max_contains_volume": "1250 ml",
         "max_contains_weight": "6 kg",
@@ -225,5 +225,53 @@
     "warmth": 25,
     "material_thickness": 5,
     "valid_mods": [ "steel_padded" ],
-	"flags": [ "STURDY", "WATERPROOF", "OUTER" ],
+    "flags": [ "STURDY", "WATERPROOF", "OUTER" ],
     "environmental_protection": 2
+  },
+  {
+    "id": "alien_fungi_vest",
+    "type": "ARMOR",
+    "name": { "str": "fungal army vest" },
+    "description": "this used to be a vest lined with hard kevlar panels theses are gone now and replaced by something you never seen before",
+    "weight": "5 kg",
+    "volume": "7500 ml",
+    "price": 750000,
+    "price_postapoc": 0,
+    "to_hit": -8,
+    "material": [ "kevlar_layered", "nylon" ],
+    "symbol": "[",
+    "looks_like": "armor_scavenger",
+    "color": "green",
+    "armor": [
+      {
+        "material": [
+          { "type": "nylon", "covered_by_mat": 100, "thickness": 2.0 },
+          { "type": "kevlar_layered", "covered_by_mat": 100, "thickness": 4.4 }
+        ],
+        "volume_encumber_modifier": 0,
+        "encumbrance": 3,
+        "coverage": 100,
+        "cover_melee": 15,
+        "covers": [ "torso" ]
+      }
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "ablative": true,
+        "volume_encumber_modifier": 0,
+        "max_contains_volume": "2000 ml",
+        "max_contains_weight": "2 kg",
+        "max_item_length": "30 cm",
+        "moves": 3500,
+        "description": "you could put something alive in the lined edges",
+        "flag_restriction": [ "ABLATIVE_FUNGAL_TORSO_ARMOR" ]
+      }
+    ],
+    "warmth": 25,
+    "material_thickness": 5,
+    "valid_mods": [ "steel_padded" ],
+    "environmental_protection": 2,
+    "flags": [ "STURDY", "WATERPROOF", "OUTER" ]
+  }
+]
