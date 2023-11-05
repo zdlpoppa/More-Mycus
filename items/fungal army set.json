@@ -44,5 +44,3 @@
     "valid_mods": [ "steel_padded" ],
     "environmental_protection": 2,
     "flags": [ "STURDY", "WATERPROOF", "OUTER" ]
-  }
-]
