@@ -181,6 +181,9 @@
   "hp_modifier_secondary": 0.2,
   "stomach_size_multiplier": 4,
   "weight_capacity_modifier": 1.20,
+  "fatigue_modifier": 0.9,
+  "healing_awake": 1.25,
+  "healing_resting": 0.75,
 "description": "The rapid growths has subsided, but we remain imperfect still. Our frame still creaks at the weight, and the desire to devour is ever mounting."
   },
 {
