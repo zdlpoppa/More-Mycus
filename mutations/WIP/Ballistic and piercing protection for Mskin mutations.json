@@ -1,6 +1,5 @@
 [
   {
-  "//": "this json should be played with as it conflicts with the older existing versions of theses mutations. this is more of a note so i remember to add it later",
     "type": "mutation",
     "id": "M_SKIN",
     "name": { "str": "Mycus Flesh" },
