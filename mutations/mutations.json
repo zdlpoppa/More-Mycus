@@ -44,9 +44,10 @@
 	[ "foot_l", 20 ]
   ],
   "armor": [
-  "part_types": [ "head", "torso", "arm", "hand", "leg", "foot", "mouth", "tail" ],
+  { "part_types": [ "head", "torso", "arm", "hand", "leg", "foot", "mouth", "tail" ],
   "bash": 3,
   "cut": 1
+  }  
   ],
   "dodge_modifier": 0.9,
   "hp_adjustment": 5,
@@ -86,10 +87,12 @@
 	[ "foot_l", 5 ]
   ],
   "armor": [
+{  
   "part_types": ["head", "torso", "arm", "hand", "leg", "foot", "mouth", "tail" ],
   "bash": 5,
   "cut": 4,
-  "pierce": 2
+  "pierce": 2 
+}
   ],
   "hp_adjustment": 7,
   "hp_modifier": 1.2,
@@ -129,10 +132,12 @@
 	[ "foot_l", 3 ]
   ],
   "armor": [
+  {
   "part_types": [ "head", "torso", "arm", "hand", "leg", "foot", "mouth", "tail" ],
   "bash": 6,
   "cut": 5,
   "pierce": 2
+  }
   ],
   "hp_adjustment": 6,
   "hp_modifier": 1.3,
@@ -172,11 +177,13 @@
 	[ "foot_l", 10 ]
   ],
   "armor": [
+  {
   "part_types": [ "head", "torso", "arm", "hand", "leg", "foot", "mouth", "tail" ],
   "bash": 7,
   "cut": 5,
   "pierce": 3,
   "environmental": 2
+  }
   ],
   "hp_adjustment": 9,
   "hp_modifier": 1.3,
