@@ -49,7 +49,7 @@
   ],
   "hp_adjustment": 2,
   "hp_modifier_secondary": 0.5,
-  "stomach_size_multiplier": 3,
+  "stomach_size_multiplier": 1.5,
 "description": "Rapid growth has suddenly undertook our form. We're noticeably larger, but not in a good way. The need for us to consume is undeniable."
   },
   {
@@ -92,7 +92,7 @@
   ],
   "hp_adjustment": 3,
   "hp_modifier_secondary": 0.1,
-  "stomach_size_multiplier": 2.5,
+  "stomach_size_multiplier": 2,
   "weight_capacity_modifier": 1.05,
 "description": "The rapid growths has subsided, but we remain imperfect still. Our frame still creaks at the weight, and the desire to devour is ever mounting."
   },
@@ -135,7 +135,7 @@
   ],
   "hp_adjustment": 4,
   "hp_modifier_secondary": 0.25,
-  "stomach_size_multiplier": 2,
+  "stomach_size_multiplier": 2.5,
   "weight_capacity_modifier": 1.1,
 "description": "The growth has seeming stopped, but the feeling of outgrowing yourself seems everpresent in your mind. The need to sate your hunger has subsided, if not by a little."
   },
@@ -179,7 +179,7 @@
   ],
   "hp_adjustment": 6,
   "hp_modifier_secondary": 0.2,
-  "stomach_size_multiplier": 4,
+  "stomach_size_multiplier": 3,
   "weight_capacity_modifier": 1.20,
   "fatigue_modifier": 0.9,
   "healing_awake": 1.25,
