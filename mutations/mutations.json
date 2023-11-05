@@ -10,7 +10,7 @@
     "category": [ "MYCUS" ],
 	"prereqs": [ "M_SKIN3", "M_PROVENANCE" ],
     "threshreq": [ "THRESH_MYCUS" ],
-    "cancels": [ "MYCUS_OVERSEER", "MYCUS_PUPPETEER", "MYCUS_HIVEMIND"],
+    "cancels": [ "MYCUS_RANGER", "MYCUS_SUMMONER", "MYCUS_HIVEMIND"],
     "description": "Starting mutation for defender variant."
   },
   {
@@ -203,7 +203,7 @@
     "category": [ "MYCUS" ],    
 	"prereqs": [ "M_SKIN3", "M_PROVENANCE" ],
     "threshreq": [ "THRESH_MYCUS" ],
-    "cancels": [ "MYCUS_DEFENDER", "MYCUS_SUMMONER", "MYCUS_HIVEMIND" ],
+    "cancels": [ "MYCUS_VALIANT", "MYCUS_SUMMONER", "MYCUS_HIVEMIND" ],
 	"leads_to": [ "MFINGER_BAD" ],
     "description": "Starting Mutation for ranger variant."
   },
@@ -274,7 +274,7 @@
     "category": [ "MYCUS" ],
 	"prereqs": [ "M_SKIN3", "M_PROVENANCE" ],
     "threshreq": [ "THRESH_MYCUS" ],
-    "cancels": [ "MYCUS_HIVEMIND", "MYCUS_OVERSEER", "MYCUS_DEFENDER" ],
+    "cancels": [ "MYCUS_HIVEMIND", "MYCUS_RANGER", "MYCUS_VALIANT" ],
     "description": "Starting mutation for Summoner variant."
   },
   {
