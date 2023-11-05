@@ -137,3 +137,49 @@
     "flags": [ "STURDY", "WATERPROOF", "OUTER" ]
   },
   {
+    "id": "alien_fungi_sleeves",
+    "type": "ARMOR",
+    "name": { "str": "fungal army sleeves" },
+    "description": "this used to be a sleeve lined with hard kevlar panels theses are gone now and replaced by something you never seen before",
+    "weight": "3 kg",
+    "volume": "7500 ml",
+    "price": 750000,
+    "price_postapoc": 0,
+    "to_hit": -8,
+    "material": [ "kevlar_layered", "nylon" ],
+    "symbol": "[",
+    "looks_like": "arm_warmers",
+    "color": "green",
+    "armor": [
+      {
+        "material": [
+          { "type": "nylon", "covered_by_mat": 100, "thickness": 2.0 },
+          { "type": "kevlar_layered", "covered_by_mat": 100, "thickness": 4.4 }
+        ],
+        "volume_encumber_modifier": 0,
+        "encumbrance": 3,
+        "coverage": 100,
+		"cover_melee": 15,
+        "covers": [ "arm_l", "arm_r" ]
+      }
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "ablative": true,
+        "volume_encumber_modifier": 0,
+        "max_contains_volume": "1250 ml",
+        "max_contains_weight": "2 kg",
+        "max_item_length": "30 cm",
+        "moves": 3500,
+        "description": "you could put something alive in the lined edges",
+        "flag_restriction": [ "ABLATIVE_FUNGAL_ARM_ARMOR" ]
+      }
+    ],
+    "warmth": 25,
+    "material_thickness": 5,
+    "valid_mods": [ "steel_padded" ],
+    "environmental_protection": 2,
+    "flags": [ "STURDY", "WATERPROOF", "OUTER" ]
+  },
+  {
