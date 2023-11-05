@@ -289,7 +289,7 @@
 	"prereqs": [ "M_SKIN3", "M_PROVENANCE" ],
     "threshreq": [ "THRESH_MYCUS" ],
 	"leads_to": [ "LOUD_MIND" ],
-    "cancels": [ "MYCUS_DEFENDER", "MYCUS_OVERSEER", "MYCUS_PUPPETEER" ],
+    "cancels": [ "MYCUS_VALIANT", "MYCUS_RANGER", "MYCUS_SUMMONER" ],
     "description": "Starting mutation for hivemind variant."
   },
   {
