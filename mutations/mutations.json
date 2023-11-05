@@ -148,7 +148,7 @@
   {
     "type": "mutation",
     "id": "MYCUS_DEFENDER_JUGGERNAUT",
-	"//1": "Mutation gained possibly from quest/killing triffid heart. Add more inbetween mutations between this."
+	"//1": "Mutation gained possibly from quest/killing triffid heart. Add more inbetween mutations between this.",
 	"flags": [ "HUGE" ],
     "name": { "str": "Fungal Juggernaut" },
 	"purifiable": false,
