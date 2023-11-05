@@ -307,5 +307,24 @@
     "category": [ "MYCUS" ],
     "prereqs": [ "LOUD_MIND" ],
     "threshreq": [ "THRESH_MYCUS" ]
+  },
+  {
+    "type": "mutation",
+    "id": "M_PROVENANCE",
+    "name": { "str": "Mycus Provenance" },
+    "points": 8,
+    "visibility": 10,
+    "ugliness": -3,
+    "description": "Local spore sacs and blossoms have merged into a single, symbiotic form.  Acting as one, they germinate together to cement rapid growth across a large area according to local guidance.  The Mycus must grow.",
+    "purifiable": false,
+    "cancels": [ "M_FERTILE", "M_BLOOM", "M_SPORES", "M_BLOSSOMS" ],
+    "threshreq": [ "THRESH_MYCUS" ],
+    "category": [ "MYCUS" ],
+    "scent_type": "sc_fungus",
+    "active": true,
+    "cost": 90,
+    "kcal": true,
+    "thirst": true,
+    "fatigue": true
   }
   ]
