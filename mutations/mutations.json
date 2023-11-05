@@ -50,8 +50,8 @@
   }  
   ],
   "dodge_modifier": 0.9,
-  "hp_adjustment": 5,
-  "hp_modifier": 1.1,
+  "hp_adjustment": 2,
+  "hp_modifier": 1.05,
   "stomach_size_multiplier": 3,
   "consume_time_modifier": 2,
 "description": "Rapid growth has suddenly undertook our form. We're noticeably larger, but not in a good way. The need for us to consume is undeniable."
@@ -90,12 +90,11 @@
 {  
   "part_types": ["head", "torso", "arm", "hand", "leg", "foot", "mouth", "tail" ],
   "bash": 5,
-  "cut": 4,
-  "pierce": 2 
+  "cut": 4
 }
   ],
-  "hp_adjustment": 7,
-  "hp_modifier": 1.2,
+  "hp_adjustment": 3,
+  "hp_modifier": 1.1,
   "stomach_size_multiplier": 2.5,
   "consume_time_modifier": 3,
   "weight_capacity_modifier": 1.05,
@@ -105,7 +104,7 @@
     "type": "mutation",
     "id": "MYCUS_VALIANT_GROWTH_GOOD",
 	"flags": [ "LARGE" ],
-    "name": { "str": "Fungal Bulk" },
+    "name": { "str": "Fungal Might" },
 	"purifiable": false,
     "points": 9,
 	"visibility": 20,
@@ -135,12 +134,11 @@
   {
   "part_types": [ "head", "torso", "arm", "hand", "leg", "foot", "mouth", "tail" ],
   "bash": 6,
-  "cut": 5,
-  "pierce": 2
+  "cut": 5
   }
   ],
-  "hp_adjustment": 6,
-  "hp_modifier": 1.3,
+  "hp_adjustment": 4,
+  "hp_modifier": 1.15,
   "stomach_size_multiplier": 2,
   "weight_capacity_modifier": 1.1,
 "description": "The growth has seeming stopped, but the feeling of outgrowing yourself seems everpresent in your mind. The need to sate your hunger has subsided, if not by a little."
@@ -181,12 +179,11 @@
   "part_types": [ "head", "torso", "arm", "hand", "leg", "foot", "mouth", "tail" ],
   "bash": 7,
   "cut": 5,
-  "pierce": 3,
   "environmental": 2
   }
   ],
-  "hp_adjustment": 9,
-  "hp_modifier": 1.3,
+  "hp_adjustment": 6,
+  "hp_modifier": 1.2,
   "stomach_size_multiplier": 4,
   "consume_time_modifier": 3,
   "weight_capacity_modifier": 1.20,
