@@ -92,7 +92,7 @@
 }
   ],
   "hp_adjustment": 3,
-  "hp_modifier_secondary": 0.1
+  "hp_modifier_secondary": 0.1,
   "stomach_size_multiplier": 2.5,
   "weight_capacity_modifier": 1.05,
 "description": "The rapid growths has subsided, but we remain imperfect still. Our frame still creaks at the weight, and the desire to devour is ever mounting."
@@ -135,7 +135,7 @@
   }
   ],
   "hp_adjustment": 4,
-  "hp_modifier_secondary": 0.25
+  "hp_modifier_secondary": 0.25,
   "stomach_size_multiplier": 2,
   "weight_capacity_modifier": 1.1,
 "description": "The growth has seeming stopped, but the feeling of outgrowing yourself seems everpresent in your mind. The need to sate your hunger has subsided, if not by a little."
