@@ -160,7 +160,7 @@
     "threshreq": [ "THRESH_MYCUS" ],
 	"passive_mods": {
 		"per_mod": -4,
-		"int_mod": -2
+		"int_mod": -2,
 		"dex_mod": 1,
 		"str_mod": 6
 	},
