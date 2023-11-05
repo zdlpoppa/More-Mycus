@@ -1,8 +1,8 @@
 [
 {
     "type": "mutation",
-    "id": "MYCUS_DEFENDER",
-    "name": { "str": "Mycus Defender" },
+    "id": "MYCUS_VALIANT",
+    "name": { "str": "Mycus Valiant" },
 	"purifiable": false,
     "points": 10,
 	"visibility": 20,
