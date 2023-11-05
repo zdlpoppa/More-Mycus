@@ -1,0 +1,14 @@
+ [
+  {
+    "type": "scent_type",
+    "id": "sc_fungus",
+    "receptive_species": [ 
+      "AMPHIBIAN",
+      "FISH",
+      "INSECT",
+      "CENTIPEDE",
+      "PLANT",
+      "MOLLUSK",
+      "WORM",  ]
+  }
+  ]
