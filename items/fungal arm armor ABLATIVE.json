@@ -9,7 +9,7 @@
     "volume": "1250 ml",
     "price": 0,
     "price_postapoc": 0,
-    "material": [ "alien_carapace", "flesh" ],
+    "material": [ "fungal_carapace", "fungal_flesh" ],
     "symbol": ",",
     "color": "light_gray",
     "material_thickness": 5,
@@ -23,8 +23,8 @@
         "cover_melee": 46,
         "covers": [ "arm_l", "arm_r" ],
         "material": [
-          { "type": "alien_carapace", "covered_by_mat": 100, "thickness": 2.0 },
-          { "type": "flesh", "covered_by_mat": 100, "thickness": 3.0 }
+          { "type": "fungal_carapace", "covered_by_mat": 100, "thickness": 2.0 },
+          { "type": "fungal_flesh", "covered_by_mat": 100, "thickness": 3.0 }
 		 ]
       }
     ]
@@ -39,7 +39,7 @@
     "volume": "500 ml",
     "price": 0,
     "price_postapoc": 0,
-    "material": [ "flesh" ],
+    "material": [ "fungal_flesh" ],
     "symbol": ",",
     "color": "light_gray",
     "material_thickness": 4,
@@ -53,7 +53,7 @@
         "coverage": 47,
         "cover_melee": 24,
         "covers": [ "arm_l", "arm_r" ],
-        "material": [ { "type": "flesh", "covered_by_mat": 100, "thickness": 2.0 } ]
+        "material": [ { "type": "fungal_flesh", "covered_by_mat": 100, "thickness": 2.0 } ]
       }
     ]
   }
