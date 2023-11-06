@@ -60,7 +60,7 @@
      "flags": [ "LARGE" ],
     "name": { "str": "Fungal Bulk" },
     "purifiable": false,
-    "points": 1,
+    "points": 6,
     "visibility": 4,
     "ugliness": 2,
     "category": [ "MYCUS" ],
