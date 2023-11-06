@@ -185,9 +185,8 @@
   "stomach_size_multiplier": 3,
   "weight_capacity_modifier": 1.20,
   "fatigue_modifier": 0.9,
-  "healing_awake": 1.25,
-  "healing_resting": 0.75,
-"description": "Our form seems unable to grow anymore; the addicting sense of power when we're awake drives us further than ever before. we feel unwavering in each step; the goal? to take what is ours."
+  "healing_awake": 1.30,
+"description": "Our form seems unable to grow anymore, the addicting sense of power when we're awake drives us further than ever before. we feel unwavering in each step, the goal? to take what is ours."
   },
 {
     "type": "mutation",
