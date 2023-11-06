@@ -10,7 +10,7 @@
     "price": 0,
     "price_postapoc": 0,
     "to_hit": -8,
-    "material": [ "Indurate Myloth", "nylon" ],
+    "material": [ "ballistic_myloth", "nylon" ],
     "symbol": "[",
     "looks_like": "boots",
     "color": "green",
@@ -18,7 +18,7 @@
       {
         "material": [
           { "type": "nylon", "covered_by_mat": 100, "thickness": 2.0 },
-          { "type": "Indurate Myloth", "covered_by_mat": 100, "thickness": 4.4 }
+          { "type": "ballistic_myloth", "covered_by_mat": 100, "thickness": 4.4 }
         ],
         "encumbrance": 3,
         "coverage": 100,
@@ -56,7 +56,7 @@
     "price": 0,
     "price_postapoc": 0,
     "to_hit": -8,
-    "material": [ "Indurate Myloth", "nylon" ],
+    "material": [ "ballistic_myloth", "nylon" ],
     "symbol": "[",
     "looks_like": "fire_gauntlets",
     "color": "green",
@@ -64,7 +64,7 @@
       {
         "material": [
           { "type": "nylon", "covered_by_mat": 100, "thickness": 2.0 },
-          { "type": "Indurate Myloth", "covered_by_mat": 100, "thickness": 4.4 }
+          { "type": "ballistic_myloth", "covered_by_mat": 100, "thickness": 4.4 }
         ],
         "encumbrance": 3,
         "coverage": 100,
@@ -101,7 +101,7 @@
     "price": 3500000,
     "price_postapoc": 0,
     "to_hit": -8,
-    "material": [ "Indurate Myloth", "nylon" ],
+    "material": [ "ballistic_myloth", "nylon" ],
     "symbol": "[",
     "looks_like": "pants_army",
     "color": "green",
@@ -109,7 +109,7 @@
       {
         "material": [
           { "type": "nylon", "covered_by_mat": 100, "thickness": 2.0 },
-          { "type": "Indurate Myloth", "covered_by_mat": 100, "thickness": 4.4 }
+          { "type": "ballistic_myloth", "covered_by_mat": 100, "thickness": 4.4 }
         ],
         "encumbrance": 3,
         "coverage": 100,
@@ -146,7 +146,7 @@
     "price": 750000,
     "price_postapoc": 0,
     "to_hit": -8,
-    "material": [ "Indurate Myloth", "nylon" ],
+    "material": [ "ballistic_myloth", "nylon" ],
     "symbol": "[",
     "looks_like": "arm_warmers",
     "color": "green",
@@ -154,7 +154,7 @@
       {
         "material": [
           { "type": "nylon", "covered_by_mat": 100, "thickness": 2.0 },
-          { "type": "Indurate Myloth", "covered_by_mat": 100, "thickness": 4.4 }
+          { "type": "ballistic_myloth", "covered_by_mat": 100, "thickness": 4.4 }
         ],
         "volume_encumber_modifier": 0,
         "encumbrance": 3,
@@ -193,7 +193,7 @@
     "price": 0,
     "price_postapoc": 0,
     "to_hit": -8,
-    "material": [ "Indurate Myloth", "nylon" ],
+    "material": [ "ballistic_myloth", "nylon" ],
     "symbol": "[",
     "looks_like": "fire_gauntlets",
     "color": "green",
@@ -201,7 +201,7 @@
       {
         "material": [
           { "type": "nylon", "covered_by_mat": 100, "thickness": 2.0 },
-          { "type": "Indurate Myloth", "covered_by_mat": 100, "thickness": 4.4 }
+          { "type": "ballistic_myloth", "covered_by_mat": 100, "thickness": 4.4 }
         ],
         "encumbrance": 3,
         "coverage": 100,
@@ -238,7 +238,7 @@
     "price": 750000,
     "price_postapoc": 0,
     "to_hit": -8,
-    "material": [ "Indurate Myloth", "nylon" ],
+    "material": [ "ballistic_myloth", "nylon" ],
     "symbol": "[",
     "looks_like": "armor_scavenger",
     "color": "green",
@@ -246,7 +246,7 @@
       {
         "material": [
           { "type": "nylon", "covered_by_mat": 100, "thickness": 2.0 },
-          { "type": "Indurate Myloth", "covered_by_mat": 100, "thickness": 4.4 }
+          { "type": "ballistic_myloth", "covered_by_mat": 100, "thickness": 4.4 }
         ],
         "volume_encumber_modifier": 0,
         "encumbrance": 3,
