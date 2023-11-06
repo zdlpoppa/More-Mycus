@@ -55,10 +55,11 @@
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_SUIT",
     "skill_used": "speech",
-    "difficulty": 0,
-    "time": "1 h",
+    "difficulty": 4,
+    "time": "6 h",
     "autolearn": true,
-    "components": [ [ [ "mycus_fruit", 1 ] ] ]
+    "qualities": [ { "id": "GRIND", "level": 2 }, { "id": "FILE", "level": 1 } ],
+    "components": [ [ [ "mycus_fruit", 20 ] ] ]
     },
     {
     "type": "recipe",
@@ -71,7 +72,7 @@
     "time": "6 h",
     "qualities": [ { "id": "GRIND", "level": 2 }, { "id": "FILE", "level": 1 } ],
     "autolearn": true,
-    "components": [ [ [ "mycus_fruit", 1 ] ] ]
+    "components": [ [ [ "mycus_fruit", 20 ] ] ]
   },
   {
     "type": "recipe",
@@ -108,7 +109,7 @@
     "time": "6 h",
     "autolearn": true,
     "qualities": [ { "id": "GRIND", "level": 2 }, { "id": "FILE", "level": 1 } ],
-    "components": [ [ [ "mycus_fruit", 1 ] ] ]
+    "components": [ [ [ "mycus_fruit", 20 ] ] ]
   },
   {
     "type": "recipe",
@@ -145,7 +146,7 @@
     "time": "6 h",
     "autolearn": true,
     "qualities": [ { "id": "GRIND", "level": 2 }, { "id": "FILE", "level": 1 } ],
-    "components": [ [ [ "mycus_fruit", 1 ] ] ]
+    "components": [ [ [ "mycus_fruit", 20 ] ] ]
   },
   {
     "type": "recipe",
@@ -158,7 +159,7 @@
     "time": "6 h",
     "autolearn": true,
     "qualities": [ { "id": "GRIND", "level": 2 }, { "id": "FILE", "level": 1 } ],
-    "components": [ [ [ "mycus_fruit", 1 ] ] ]
+    "components": [ [ [ "mycus_fruit", 20 ] ] ]
   },
   {
     "type": "recipe",
