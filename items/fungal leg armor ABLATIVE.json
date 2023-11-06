@@ -23,7 +23,7 @@
         "cover_melee": 46,
         "covers": [ "leg_l", "leg_r" ],
         "material": [
-          { "type": "alien_carapace", "covered_by_mat": 100, "thickness": 2.0 },
+          { "type": "fungal_carapace", "covered_by_mat": 100, "thickness": 2.0 },
           { "type": "flesh", "covered_by_mat": 100, "thickness": 3.0 }
 		 ]
       }
