@@ -1,0 +1,50 @@
+[
+  {
+    "type": "proficiency",
+    "id": "prof_wp_fungus_species",
+    "category": "prof_weakpoint",
+    "name": { "str": "Principles of Fungal Biology" },
+    "description": "Very basic familiarity with various types of fungal organisms.",
+    "can_learn": true,
+    "time_to_learn": "12 h",
+    "required_proficiencies": [ "prof_intro_biology" ],
+    "default_weakpoint_bonus": 2,
+    "default_weakpoint_penalty": 0
+  },
+  {
+    "type": "proficiency",
+    "id": "prof_wp_fungaloid",
+    "category": "prof_weakpoint",
+    "name": { "str": "Principles of Fungaloid Anatomy" },
+    "description": "Familiarity with different forms of ambulatory fungi.",
+    "can_learn": true,
+    "time_to_learn": "24 h",
+    "required_proficiencies": [ "prof_wp_fungus_species" ],
+    "default_weakpoint_bonus": 2,
+    "default_weakpoint_penalty": 0
+  },
+  {
+    "type": "proficiency",
+    "id": "prof_wp_fungal_infected",
+    "category": "prof_weakpoint",
+    "name": { "str": "Principles of Fungal Infestation" },
+    "description": "Familiarity with parasitic fungi and their interaction with other organisms.",
+    "can_learn": true,
+    "time_to_learn": "18 h",
+    "required_proficiencies": [ "prof_wp_fungus_species" ],
+    "default_weakpoint_bonus": 2,
+    "default_weakpoint_penalty": 0
+  },
+  {
+    "type": "proficiency",
+    "id": "prof_wp_fungal_structures",
+    "category": "prof_weakpoint",
+    "name": { "str": "Principles of Fungal Structure Anatomy" },
+    "description": "Familiarity with large, stony fungal structures.",
+    "can_learn": true,
+    "time_to_learn": "24 h",
+    "required_proficiencies": [ "prof_wp_fungus_species" ],
+    "default_weakpoint_bonus": 2,
+    "default_weakpoint_penalty": 0
+  }
+]
