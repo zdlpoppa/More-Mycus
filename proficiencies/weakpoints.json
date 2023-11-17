@@ -1,13 +1,14 @@
 [
   {
     "type": "proficiency",
-    "id": "prof_wp_fungus_species",
+    "id": "prof_wp_mycus_species",
     "category": "prof_weakpoint",
-    "name": { "str": "Principles of Fungal Biology" },
-    "description": "Very basic familiarity with various types of fungal organisms.",
+    "name": { "str": "Principles of Xenomycology" },
+    "description": "Familiarity with the strange fungi that appeared post-cataclysm.",
+    "//": "This is probably going to have to be reflavored, but the principle is the same.",
     "can_learn": true,
     "time_to_learn": "12 h",
-    "required_proficiencies": [ "prof_intro_biology" ],
+    "required_proficiencies": [ "prof_mycology" ],
     "default_weakpoint_bonus": 2,
     "default_weakpoint_penalty": 0
   },
@@ -15,11 +16,11 @@
     "type": "proficiency",
     "id": "prof_wp_fungaloid",
     "category": "prof_weakpoint",
-    "name": { "str": "Principles of Fungaloid Anatomy" },
-    "description": "Familiarity with different forms of ambulatory fungi.",
+    "name": { "str": "Ambulatory Fungus Anatomy" },
+    "description": "Familiarity with different forms of walking mushroom.",
     "can_learn": true,
     "time_to_learn": "24 h",
-    "required_proficiencies": [ "prof_wp_fungus_species" ],
+    "required_proficiencies": [ "prof_wp_mycus_species" ],
     "default_weakpoint_bonus": 2,
     "default_weakpoint_penalty": 0
   },
@@ -31,7 +32,7 @@
     "description": "Familiarity with parasitic fungi and their interaction with other organisms.",
     "can_learn": true,
     "time_to_learn": "18 h",
-    "required_proficiencies": [ "prof_wp_fungus_species" ],
+    "required_proficiencies": [ "prof_wp_mycus_species" ],
     "default_weakpoint_bonus": 2,
     "default_weakpoint_penalty": 0
   },
@@ -43,7 +44,7 @@
     "description": "Familiarity with large, stony fungal structures.",
     "can_learn": true,
     "time_to_learn": "24 h",
-    "required_proficiencies": [ "prof_wp_fungus_species" ],
+    "required_proficiencies": [ "prof_wp_mycus_species" ],
     "default_weakpoint_bonus": 2,
     "default_weakpoint_penalty": 0
   }
